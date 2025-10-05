@@ -1,0 +1,40 @@
+# ========== Minecraft Fabric Mod .gitignore (Loom + Eclipse) ==========
+
+# Gradle build and cache
+.gradle/
+build/
+out/
+run/
+bin/
+classes/
+logs/
+
+# Eclipse / IntelliJ / VSCode IDE files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.classpath
+*.project
+*.settings/
+*.factorypath
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary or local files
+*.tmp
+*.swp
+*.bak
+*.orig
+*.log
+
+# Crash reports, debug profiles
+hs_err_pid*
+replay_pid*
+*.hprof
+
+# Exclude user mods or

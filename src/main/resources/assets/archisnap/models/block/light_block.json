@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "archisnap:block/light_block"
+  },
+  "render_type": "translucent"
+}

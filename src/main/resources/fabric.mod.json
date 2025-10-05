@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "archisnap",
+	"version": "1.1.0",
+	"name": "YoozaiDesign",
+	"description": "Yoozai architecture blocks.",
+	"authors": [
+		"jorgeqc"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/archisnap/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"archi.ArchiSnap"
+		],
+		"client": [
+			"archi.ModClient"
+		],
+		"fabric-datagen": [
+			"archi.ArchiSnapDataGenerator"
+		]
+	},
+	"mixins": [
+		"archisnap.mixins.json",
+		{
+			"config": "archisnap.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
