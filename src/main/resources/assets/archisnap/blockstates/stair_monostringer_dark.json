@@ -1,0 +1,31 @@
+{
+  "multipart": [
+    {
+      "when": { "facing": "north" },
+      "apply": {
+        "model": "archisnap:block/stair_monostringer_dark",
+        "y": 270
+      }
+    },
+    {
+      "when": { "facing": "east" },
+      "apply": {
+        "model": "archisnap:block/stair_monostringer_dark"
+      }
+    },
+    {
+      "when": { "facing": "south" },
+      "apply": {
+        "model": "archisnap:block/stair_monostringer_dark",
+        "y": 90
+      }
+    },
+    {
+      "when": { "facing": "west" },
+      "apply": {
+        "model": "archisnap:block/stair_monostringer_dark",
+        "y": 180
+      }
+    }
+  ]
+}

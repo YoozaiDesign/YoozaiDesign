@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "archisnap",
-	"version": "1.1.0",
+	"version": "1.2.3",
 	"name": "YoozaiDesign",
 	"description": "Yoozai architecture blocks.",
 	"authors": [

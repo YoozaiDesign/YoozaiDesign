@@ -1,6 +1,6 @@
 package archi;
 
-import archi.ModBlocks; // 引入方块类
+import archi.ModBlocks;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
@@ -17,7 +17,7 @@ import net.minecraft.util.Identifier;
  */
 public class ArchiSnapItemGroup {
 
-    // 注册一个新的物品组键值（用于标识）
+    // 原有物品组
     public static final RegistryKey<ItemGroup> ARCHISNAP_GROUP = RegistryKey.of(
             Registries.ITEM_GROUP.getKey(),
             new Identifier(ArchiSnap.MOD_ID, "archisnap_group")
@@ -27,21 +27,50 @@ public class ArchiSnapItemGroup {
      * 注册物品组内容
      */
     public static void registerItemGroup() {
-        System.out.println("Registering ArchiSnap item group...");
+        System.out.println("Registering ArchiSnap item groups...");
 
+        // 原有物品组注册
         Registry.register(
                 Registries.ITEM_GROUP,
                 ARCHISNAP_GROUP,
                 FabricItemGroup.builder()
-                        // 设置物品组图标
                         .icon(() -> new ItemStack(ModBlocks.CONCRETE_BARE))
-                        // 设置物品组名称（多语言键）
                         .displayName(Text.translatable("itemGroup.archisnap.archisnap_group"))
-                        // 添加物品到该物品组
                         .entries((context, entries) -> {
                             entries.add(ModBlocks.CONCRETE_BARE);
                             entries.add(ModBlocks.CONCRETE_BAREX);
-                            entries.add(ModBlocks.LIGHT_BLOCK); // 新增 Light Block
+                            entries.add(ModBlocks.LIGHT_BLOCK);
+                        })
+                        .build()
+        );
+
+        // 新增的 Cocricot 楼梯物品组
+        Registry.register(
+                Registries.ITEM_GROUP,
+                new Identifier(ArchiSnap.MOD_ID, "cocricotstairs"),
+                FabricItemGroup.builder()
+                        .icon(() -> new ItemStack(ModBlocks.STAIR_CLOSEDSTRINGER_BROWN))
+                        .displayName(Text.translatable("itemGroup.archisnap.cocricotstairs"))
+                        .entries((context, entries) -> {
+                            // Closedstringer stairs
+                            entries.add(ModBlocks.STAIR_CLOSEDSTRINGER_BROWN);
+                            entries.add(ModBlocks.STAIR_CLOSEDSTRINGER_BROWN_IRON);
+                            entries.add(ModBlocks.STAIR_CLOSEDSTRINGER_CLEAR);
+                            entries.add(ModBlocks.STAIR_CLOSEDSTRINGER_DARK);
+                            entries.add(ModBlocks.STAIR_CLOSEDSTRINGER_IRON);
+                            entries.add(ModBlocks.STAIR_CLOSEDSTRINGER_NATURAL);
+                            entries.add(ModBlocks.STAIR_CLOSEDSTRINGER_SEADRIFT);
+                            entries.add(ModBlocks.STAIR_CLOSEDSTRINGER_WHITE);
+
+                            // Monostringer stairs
+                            entries.add(ModBlocks.STAIR_MONOSTRINGER_BROWN);
+                            entries.add(ModBlocks.STAIR_MONOSTRINGER_BROWN_IRON);
+                            entries.add(ModBlocks.STAIR_MONOSTRINGER_CLEAR);
+                            entries.add(ModBlocks.STAIR_MONOSTRINGER_DARK);
+                            entries.add(ModBlocks.STAIR_MONOSTRINGER_IRON);
+                            entries.add(ModBlocks.STAIR_MONOSTRINGER_NATURAL);
+                            entries.add(ModBlocks.STAIR_MONOSTRINGER_SEADRIFT);
+                            entries.add(ModBlocks.STAIR_MONOSTRINGER_WHITE);
                         })
                         .build()
         );

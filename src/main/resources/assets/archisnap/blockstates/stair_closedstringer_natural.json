@@ -1,0 +1,117 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "facing": "north"
+      },
+      "apply": {
+        "model": "archisnap:block/stair_closedstringer_natural",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east"
+      },
+      "apply": {
+        "model": "archisnap:block/stair_closedstringer_natural"
+      }
+    },
+    {
+      "when": {
+        "facing": "south"
+      },
+      "apply": {
+        "model": "archisnap:block/stair_closedstringer_natural",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west"
+      },
+      "apply": {
+        "model": "archisnap:block/stair_closedstringer_natural",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "connect_left": "false"
+      },
+      "apply": {
+        "model": "archisnap:block/stair_closedstringer_natural_leftboard",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "connect_left": "false"
+      },
+      "apply": {
+        "model": "archisnap:block/stair_closedstringer_natural_leftboard"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "connect_left": "false"
+      },
+      "apply": {
+        "model": "archisnap:block/stair_closedstringer_natural_leftboard",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "connect_left": "false"
+      },
+      "apply": {
+        "model": "archisnap:block/stair_closedstringer_natural_leftboard",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "connect_right": "false"
+      },
+      "apply": {
+        "model": "archisnap:block/stair_closedstringer_natural_rightboard",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "connect_right": "false"
+      },
+      "apply": {
+        "model": "archisnap:block/stair_closedstringer_natural_rightboard"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "connect_right": "false"
+      },
+      "apply": {
+        "model": "archisnap:block/stair_closedstringer_natural_rightboard",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "connect_right": "false"
+      },
+      "apply": {
+        "model": "archisnap:block/stair_closedstringer_natural_rightboard",
+        "y": 180
+      }
+    }
+  ]
+}

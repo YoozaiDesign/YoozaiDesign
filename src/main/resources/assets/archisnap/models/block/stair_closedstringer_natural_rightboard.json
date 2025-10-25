@@ -1,0 +1,94 @@
+{
+  "format_version": "1.9.0",
+  "ambientocclusion": false,
+  "textures": {
+    "right": "archisnap:block/stair_natural_right",
+    "particle": "archisnap:block/planks_natural"
+  },
+  "elements": [
+    {
+      "name": "rightboard",
+      "from": [
+        2.5,
+        -2.5,
+        16
+      ],
+      "to": [
+        25.13,
+        5.5,
+        18
+      ],
+      "rotation": {
+        "angle": 45,
+        "axis": "z",
+        "origin": [
+          2.5,
+          -2.5,
+          16
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            11,
+            0,
+            16,
+            16
+          ],
+          "rotation": 90,
+          "texture": "#right"
+        },
+        "east": {
+          "uv": [
+            11,
+            0,
+            16,
+            2
+          ],
+          "rotation": 90,
+          "texture": "#right"
+        },
+        "south": {
+          "uv": [
+            11,
+            0,
+            16,
+            16
+          ],
+          "rotation": 90,
+          "texture": "#right"
+        },
+        "west": {
+          "uv": [
+            11,
+            14,
+            16,
+            16
+          ],
+          "rotation": 90,
+          "texture": "#right"
+        },
+        "up": {
+          "uv": [
+            12.5,
+            0,
+            14.5,
+            16
+          ],
+          "rotation": 90,
+          "texture": "#right"
+        },
+        "down": {
+          "uv": [
+            12.5,
+            0,
+            14.5,
+            16
+          ],
+          "rotation": 90,
+          "texture": "#right"
+        }
+      }
+    }
+  ]
+}

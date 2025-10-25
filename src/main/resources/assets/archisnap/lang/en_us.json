@@ -1,6 +1,23 @@
 {
   "itemGroup.archisnap.archisnap_group": "Yoozai Blocks",
+  "itemGroup.archisnap.cocricotstairs": "Cocricot Blocks",
   "block.archisnap.concrete_bare": "Bare Concrete",
   "block.archisnap.concrete_barex": "Bare Concrete 2",
-  "block.archisnap.light_block": "Light Block"
+  "block.archisnap.light_block": "Light Block",
+  "block.archisnap.stair_closedstringer_brown": "Brown Closed-Stringer Stair",
+  "block.archisnap.stair_closedstringer_brown_iron": "Brown Iron Closed-Stringer Stair",
+  "block.archisnap.stair_closedstringer_clear": "Clear Closed-Stringer Stair",
+  "block.archisnap.stair_closedstringer_dark": "Dark Closed-Stringer Stair",
+  "block.archisnap.stair_closedstringer_iron": "Iron Closed-Stringer Stair",
+  "block.archisnap.stair_closedstringer_natural": "Natural Closed-Stringer Stair",
+  "block.archisnap.stair_closedstringer_seadrift": "Seadrift Closed-Stringer Stair",
+  "block.archisnap.stair_closedstringer_white": "White Closed-Stringer Stair",
+  "block.archisnap.stair_monostringer_brown": "Brown Mono-Stringer Stair",
+  "block.archisnap.stair_monostringer_brown_iron": "Brown Iron Mono-Stringer Stair",
+  "block.archisnap.stair_monostringer_clear": "Clear Mono-Stringer Stair",
+  "block.archisnap.stair_monostringer_dark": "Dark Mono-Stringer Stair",
+  "block.archisnap.stair_monostringer_iron": "Iron Mono-Stringer Stair",
+  "block.archisnap.stair_monostringer_natural": "Natural Mono-Stringer Stair",
+  "block.archisnap.stair_monostringer_seadrift": "Seadrift Mono-Stringer Stair",
+  "block.archisnap.stair_monostringer_white": "White Mono-Stringer Stair"
 }

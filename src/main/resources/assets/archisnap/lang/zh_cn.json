@@ -1,6 +1,23 @@
 {
   "itemGroup.archisnap.archisnap_group": "悠哉方块",
+  "itemGroup.archisnap.cocricotstairs": "Cocricot移植方块",
   "block.archisnap.concrete_bare": "清水混凝土",
   "block.archisnap.concrete_barex": "清水混凝土 2",
-  "block.archisnap.light_block": "发光方块"
+  "block.archisnap.light_block": "发光方块",
+  "block.archisnap.stair_closedstringer_brown": "棕色双梁楼梯",
+  "block.archisnap.stair_closedstringer_brown_iron": "棕色铁骨双梁楼梯",
+  "block.archisnap.stair_closedstringer_clear": "原色双梁楼梯",
+  "block.archisnap.stair_closedstringer_dark": "深色双梁楼梯",
+  "block.archisnap.stair_closedstringer_iron": "金属双梁楼梯",
+  "block.archisnap.stair_closedstringer_natural": "原木色双梁楼梯",
+  "block.archisnap.stair_closedstringer_seadrift": "海漂色双梁楼梯",
+  "block.archisnap.stair_closedstringer_white": "白色双梁楼梯",
+  "block.archisnap.stair_monostringer_brown": "棕色单梁楼梯",
+  "block.archisnap.stair_monostringer_brown_iron": "棕色铁骨单梁楼梯",
+  "block.archisnap.stair_monostringer_clear": "原色单梁楼梯",
+  "block.archisnap.stair_monostringer_dark": "深色单梁楼梯",
+  "block.archisnap.stair_monostringer_iron": "金属单梁楼梯",
+  "block.archisnap.stair_monostringer_natural": "原木色单梁楼梯",
+  "block.archisnap.stair_monostringer_seadrift": "海漂色单梁楼梯",
+  "block.archisnap.stair_monostringer_white": "白色单梁楼梯"
 }

@@ -1,0 +1,7 @@
+{
+    "parent": "archisnap:block/stair_monostringer_brown",
+    "textures": {
+      "particle": "archisnap:block/stone_color_black",
+  		"0": "archisnap:block/stair_brown_iron"
+    }
+}

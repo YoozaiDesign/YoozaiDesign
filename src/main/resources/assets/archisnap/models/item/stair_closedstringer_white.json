@@ -1,0 +1,9 @@
+{
+  "parent": "archisnap:block/stair_closedstringer_template",
+  "textures": {
+    "0": "archisnap:block/stair_white",
+    "left": "archisnap:block/stair_white_left",
+    "right": "archisnap:block/stair_white_right",
+    "particle": "archisnap:block/planks_white"
+  }
+}
